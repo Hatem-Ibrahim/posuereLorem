@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is desc">
+    <link rel="icon" href="images/default_icon.jpg">
+
+    <!-- ********** Font Family ********** -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+
+    <!-- ********** Font Awesome ********** -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- ************** my styles******************** -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hatem</title>
+</head>
+<body>
+    <section id="sec_nav">
+        <nav class="navbar navbar-expand-lg navbar-light  container">
+            <img src="images/logo_nav.PNG" alt="this logo of website">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index-contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-components.html">Components</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <button type="button" class="btn">Download</button>
+                </a>
+            </div>
+        </nav>
+        <div class="line line_nav"></div>
+    </section>
+    <section id="sec_map">
+        <div class="container">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.827223347245!2d31.344593185507343!3d30.07048662429811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e0dd2418453%3A0x48a86997f284f8d6!2sSenior%20Steps!5e0!3m2!1sar!2seg!4v1633357153876!5m2!1sar!2seg" 
+                style="border:0;" loading="lazy"></iframe>
+            </div>
+            <div class="row contact_us">
+                <div class="col-10 col-md-6">
+                    <form>
+                        <fieldset>
+                            <input type="text" name="Full name" placeholder="Full name" autocomplete="off" required>
+                            <input type="email" name="Email" placeholder="Email" autocomplete="off" required>
+                            <small id="smallId"></small>
+                            <input type="text" name="Subject"  placeholder="Subject" autocomplete="off">
+                            <textarea name="Message" rows="4" placeholder="Enter your Message" autocomplete="off" minlength="50" maxlength="200"></textarea>
+                            <a href="#">
+                                <button>Send</button>
+                            </a>
+                        </fieldset>
+                    </form>
+                </div>  
+                <div class="col-10 col-md-5">
+                    <div>
+                        <h3> Head Office </h3>
+                        <div class="address">
+                            42 rue Rouelle 75015 Paris FRANCE
+                        </div>
+                        <div class="contact_email">
+                            <label> <a href="#"> contact@mybusineess.com </a> </label>
+                            <label> <a href="#"> + 331 45 31 64 32 </a> </label>
+                        </div>
+                        <div class="employment">
+                            <h3> Employment </h3>
+                            <div>
+                                To apply for a job with our team, please feel free to send us your
+                            </div>
+                            <div>
+                                Linkedin profile link ou cV to : 
+                                <a href="#">  employment@mybusiness.com </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="line line_1"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col_about">
+                    <h6> About us </h6>
+                    <div>
+                        lorem ipsum dolor sit amet consectetur adipiscing amet consectetur.
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col_contact">
+                    <h6> Do you Like ? Share this ! </h6>
+                    <div class="div_social_media">
+                        <div class="social_media">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social_media">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social_media">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        &copy; Untitled Website Created With Mashup Template / Unsplash
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col_search">
+                    <h6> Subscribe To newsletter </h6>
+                    <div>
+                        <form class="form-inline">
+                            <input class="form-control " type="search"  aria-label="Search">
+                            <button class="btn  my-2 my-sm-0" type="submit">OK</button>
+                        </form>
+                        <label class="design"> Design by : Hatem ibrahim</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
